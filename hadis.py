@@ -47,7 +47,7 @@ class Hadis:
 
 	def mantan(self, li, pil):
 		tot = 0
-		cou = int(input("\n\x1b[32;1m[\x1b[36;1m?\x1b[32;1m] \x1b[36;1m>>>> : \x1b[32;1m"))
+		cou = int(input("\n\x1b[32;1m[\x1b[36;1m?\x1b[32;1m] \x1b[36;1m>>>> \x1b[32;1m"))
 		for res in li:
 			tot += 1
 			if tot >= cou:
